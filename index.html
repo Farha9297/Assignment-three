@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -31,20 +31,18 @@
 
   </script>
 </head>
-<body>
-    <nav class="navbar bg-[#FFF9F4] font-sora font-normal  text-black w-fit md:w-full h-12 md:h-24">
-      <div class="md:my-7  md:mx-36 md:gap-x-4 mx-3 my-3 flex justify-between items-center w-full">
+<body class="font-sora">
+    <nav class="navbar bg-[#FFF9F4] font-normal  text-black w-fit md:w-full h-12 md:h-24">
+      <div class="md:my-7  md:mx-36 md:gap-x-4 mx-8 my-3 flex justify-between items-center w-full">
       <div class="space-x-2 flex items-center">
         <img src="c1-assets/logo-header.png">
         <h3 class="invisible md:visible md:text-2xl font-normal">Browse<span class="text-[#ffdc26]">4</span>Pets</h3>
       </div>
-      <div class="invisible md:visible flex md: h-6 items-center space-x-6">
+      <div class="invisible md:visible flex md:h-6 items-center space-x-6">
         <a href="#" class="text-xl font-normal">Find a pet</a>
         <a href="#" class="text-xl font-normal">Breeds</a>
         <a href="#" class="text-xl font-normal">Contact Us</a>
-      </div>
-    
-            
+      </div>  
        
         <div class="invisible md:visible flex items-center justify-center gap-x-0.5">
           <div class="flex items-center">
@@ -52,9 +50,21 @@
             <i class="fa-solid fa-magnifying-glass w-6 h-6"></i></div>
             <button class="border-[#ffdc26] btn btn-outline font-normal text-xl w-28">Login</button>
             <button class="bg-[#ffdc26] text-xl rounded-lg w-36 h-11 ml-1">Register</button></div>
-            <i class="fa-solid fa-bars  mr-3 md:invisible"></i>
+            <i class="fa-solid fa-bars mr-3 md:invisible"></i>
       </div>
     </nav>
+    <main class="bg-white">
+      <section class="md:mt-16 md:mb-36 md:mx-36 mx-8 my-10 min-h-screen absolute bg-right-bottom">
+       
+          <div class="flex flex-col relative md:-bottom-80">
+            <h1 class="animate-bounce hover:text-purple-500 hover:animate-pulse text-5xl font-Adlam w-full h-fit mt-4 md:h-fit md:w-2/4 text-left"><i class="fa-solid fa-paw animate-pulse" style="color: #B197FC;"></i> Pamper Your Pet, Because They Deserve the Best
+              <i class="fa-solid fa-paw animate-pulse" style="color: #B197FC;"></i></h1>
+            <p class="py-6 text-xl text-zinc-500 mb-4 mt-4 w-full h-20 md:w-2/4  md:h-fit">Discover a world of treats, toys, and essentials handpicked for your furry friends. Shop now and make tails wag with joy!</p>
+              <button class="animate-pulse relative mt-10 bg-[#ffdc26] text-xl rounded-lg w-36 h-11 ml-1">Find a pet</button>
+            </div>
+            <img class="w-full h-5/6" src="c1-assets/cat-big.png">
+  </section>
+    </main>
     
 </body>
 </html>
