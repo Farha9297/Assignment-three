@@ -32,16 +32,17 @@
   </script>
 </head>
 <body class="font-sora">
-    <nav class="navbar bg-[#FFF9F4] font-normal  text-black w-fit md:w-full h-12 md:h-24">
-      <div class="md:my-7  md:mx-36 md:gap-x-4 mx-8 my-3 flex justify-between items-center w-full">
+  <header class="bg-[#FFF9F4] flex  items-center justify-between w-screen">
+    <nav class="navbar font-normal  text-black h-12 md:h-24">
+      <div class="md:my-7 md:mx-36 md:gap-6 mx-8 my-3 flex justify-between items-center w-full">
       <div class="space-x-2 flex items-center">
-        <img src="c1-assets/logo-header.png">
-        <h3 class="invisible md:visible md:text-2xl font-normal">Browse<span class="text-[#ffdc26]">4</span>Pets</h3>
+        <img class="w-full" src="c1-assets/logo-header.png">
+        <h3 class="w-44 h-9 invisible md:visible md:text-2xl font-normal">Browse<span class="text-[#ffdc26]">4</span>Pets</h3>
       </div>
-      <div class="invisible md:visible flex md:h-6 items-center space-x-6">
-        <a href="#" class="text-xl font-normal">Find a pet</a>
-        <a href="#" class="text-xl font-normal">Breeds</a>
-        <a href="#" class="text-xl font-normal">Contact Us</a>
+      <div class="invisible md:visible flex w-96 md:h-6 items-center md:gap-4">
+        <a href="#" class="w-28 text-xl font-normal">Find a pet</a>
+        <a href="#" class="w-16 pr-1 text-xl font-normal">Breeds</a>
+        <a href="#" class="w-32 text-xl font-normal">Contact Us</a>
       </div>  
        
         <div class="invisible md:visible flex items-center justify-center gap-x-0.5">
@@ -50,20 +51,129 @@
             <i class="fa-solid fa-magnifying-glass w-6 h-6"></i></div>
             <button class="border-[#ffdc26] btn btn-outline font-normal text-xl w-28">Login</button>
             <button class="bg-[#ffdc26] text-xl rounded-lg w-36 h-11 ml-1">Register</button></div>
-            <i class="fa-solid fa-bars mr-3 md:invisible"></i>
-      </div>
-    </nav>
-    <main class="bg-white">
-      <section class="md:mt-16 md:mb-36 md:mx-36 mx-8 my-10 min-h-screen absolute bg-right-bottom">
-       
-          <div class="flex flex-col relative md:-bottom-80">
-            <h1 class="animate-bounce hover:text-purple-500 hover:animate-pulse text-5xl font-Adlam w-full h-fit mt-4 md:h-fit md:w-2/4 text-left"><i class="fa-solid fa-paw animate-pulse" style="color: #B197FC;"></i> Pamper Your Pet, Because They Deserve the Best
+          </nav>
+            <i class="px-auto fa-solid fa-bars md:invisible"></i>
+            </header>
+            <hr class="border-black md:invisible w-screen"></div>
+
+ 
+    <main>
+      <section class="bg-white md:mt-8 md:mb-16 md:mx-36 mx-8 my-16 bg-right-bottom container w-full">
+       <div class="flex flex-col relative md:-bottom-80">
+            <h1 class="animate-bounce hover:text-purple-500 hover:animate-pulse text-5xl font-Adlam w-full h-fit mt-1 pt-1 md:h-fit md:w-2/4 text-left"><i class="fa-solid fa-paw animate-pulse" style="color: #B197FC;"></i> Pamper Your Pet, Because They Deserve the Best
               <i class="fa-solid fa-paw animate-pulse" style="color: #B197FC;"></i></h1>
-            <p class="py-6 text-xl text-zinc-500 mb-4 mt-4 w-full h-20 md:w-2/4  md:h-fit">Discover a world of treats, toys, and essentials handpicked for your furry friends. Shop now and make tails wag with joy!</p>
-              <button class="animate-pulse relative mt-10 bg-[#ffdc26] text-xl rounded-lg w-36 h-11 ml-1">Find a pet</button>
+            <p class="py-6 text-xl text-zinc-500 mb-4 mt-4 mb-4 w-full h-20 md:w-2/4  md:h-fit">Discover a world of treats, toys, and essentials handpicked for your furry friends. Shop now and make tails wag with joy!</p>
+              <button class="animate-pulse  bg-[#ffdc26] mt-10 text-xl rounded-lg w-36 h-11 ml-1">Find a pet</button>
             </div>
             <img class="w-full h-5/6" src="c1-assets/cat-big.png">
   </section>
+  <section class="md:mt-12 md:mb-16 md:mx-36 mx-8 my-16 w-full">
+    
+    <h3 class="font-Adlam text-2xl md:text-4xl">Browse By Categories</h3>
+    <div class="grid grid-cols-2 gapx-2 flex-2 md:flex md:flex-wrap md:gap-8">
+   
+      <!--card-->
+  <div class="card bg-[#f9df8a] w-44 h-56 py-8 mt-8 md:mt-11 md:w-48 md:h-64 rounded-xl">
+  <div class="flex flex-col items-center">
+    <div class="flex items-center justify-center w-24 h-24 bg-white rounded-full">
+         <img src="c1-assets/dog-cartoon.png" alt="pet">
+</div>
+      <div class="card-body items-center text-center text-black">
+        <h4 class="font-Adlam text-xl card-title">Dog</h4>
+        <p class="font-sora text-base">3 items</p>
+      </div>
+    </div>
+    </div>
+    <!--card-->
+    <div class="card bg-[#f9df8a] w-44 h-56  py-8 mt-8 md:mt-11 md:w-48 md:h-64 rounded-xl">
+      <div class="flex flex-col items-center">
+        <div class="flex items-center justify-center w-24 h-24 bg-white rounded-full">
+             <img src="c1-assets/fish-cartoon.png" alt="pet">
+    </div>
+          <div class="card-body items-center text-center text-black">
+            <h4 class="font-Adlam text-xl card-title">Fish</h4>
+            <p class="font-sora text-base">3 items</p>
+          </div>
+        </div>
+        </div>
+        <!--card-->
+        <div class="card bg-[#f9df8a] w-44 h-56 py-8 mt-8 md:mt-11 md:w-48 md:h-64 rounded-xl">
+  <div class="flex flex-col items-center">
+    <div class="flex items-center justify-center w-24 h-24 bg-white rounded-full">
+         <img src="c1-assets/cat-cartoon.png" alt="pet">
+</div>
+      <div class="card-body items-center text-center text-black">
+        <h4 class="font-Adlam text-xl card-title">Cat</h4>
+        <p class="font-sora text-base">3 items</p>
+      </div>
+    </div>
+    </div>
+    <!--card-->
+    <div class="card bg-[#f9df8a] w-44 h-56 py-8 mt-8 md:mt-11 md:w-48 md:h-64 rounded-xl">
+      <div class="flex flex-col items-center">
+        <div class="flex items-center justify-center w-24 h-24 bg-white rounded-full">
+             <img src="c1-assets/bird-cartoon.png" alt="pet">
+    </div>
+          <div class="card-body items-center text-center text-black">
+            <h4 class="font-Adlam text-xl card-title">Birds</h4>
+            <p class="font-sora text-base">3 items</p>
+          </div>
+        </div>
+        </div>
+        <!--card-->
+        <div class="card bg-[#f9df8a] w-44 h-56 py-8 mt-8 md:mt-11 md:w-48 md:h-64 rounded-xl">
+          <div class="flex flex-col items-center">
+            <div class="flex items-center justify-center w-24 h-24 bg-white rounded-full">
+                 <img src="c1-assets/mouse-cartoon.png" alt="pet">
+        </div>
+              <div class="card-body items-center text-center text-black">
+                <h4 class="font-Adlam text-xl card-title">Small pet</h4>
+                <p class="font-sora text-base">3 items</p>
+              </div>
+            </div>
+            </div>
+            <!--card-->
+            <div class="card bg-[#f9df8a] w-44 h-56 mt-8 md:mt-11 md:w-48 md:h-64 rounded-xl">
+              <div class="flex flex-col items-center  py-8">
+                <div class="flex items-center justify-center w-24 h-24 bg-white rounded-full">
+                     <img src="c1-assets/rabbit-cartoon.png" alt="pet">
+            </div>
+                  <div class="card-body items-center text-center text-black">
+                    <h4 class="font-Adlam text-xl card-title">Rabit</h4>
+                    <p class="font-sora text-base">3 items</p>
+                  </div>
+                </div>
+                </div>
+
+  </section>
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     </main>
     
 </body>
